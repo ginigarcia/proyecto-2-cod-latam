@@ -1,0 +1,142 @@
+* {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    position: fixed;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    display: inline-flex;
+    float: left;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    padding: 30px 20px 20px 20px;
+    font-size: 20px;
+    background: none;
+
+}
+
+
+.article {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px;
+    background-color: #FFBAA9;
+    border-radius: 10%;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+main.p {
+    font-size: 18px;
+    line-height: 1, 2;
+}
+
+.main.h1 {
+    font-size: 28px;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.circulo>.IMG {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+article {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1, 2;
+    max-width: 1200px;
+    margin: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px;
+}
+
+.div button {
+    background-color: #f1dec8;
+    cursor: pointer;
+    border-radius: 10%;
+    border-color: #f1dec8;
+    padding: 15px 32px;
+    margin-bottom: 4px;
+    width: 215px;
+    font-size: 20px;
+}
+
+div button:hover {
+    background-color: #eebd84;
+
+}
+
+div.mail {
+    float: center;
+    max-width: 1200px;
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+div.git {
+    float: center;
+    max-width: 1200px;
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+div.linkedin {
+    float: center;
+    max-width: 1200px;
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+footer.box {
+    background-color: #FFBAA9;
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px;
+}
